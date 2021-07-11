@@ -4,6 +4,15 @@ body {
   line-height: 1;
 }
 
+button {
+  background-color: #06aed5;
+  border: none;
+  width: 1em;
+  height: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 textarea {
   background: transparent;
   border: none;
@@ -76,6 +85,10 @@ textarea {
   align-items: center;
 }
 
+#diskIcon {
+  width:800%;
+  height: auto;
+} 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
