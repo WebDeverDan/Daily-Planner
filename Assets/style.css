@@ -13,6 +13,7 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 textarea {
   background: transparent;
   border: none;
@@ -53,7 +54,6 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
- 
 }
 
 /* .past {
@@ -88,11 +88,12 @@ textarea {
 #diskIcon {
   width:800%;
   height: auto;
-} 
-.saveBtn i:hover {
+}
+
+/* .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-}
+} */
 
 .col-9 {
   display: flex;
@@ -106,13 +107,41 @@ textarea {
 }
 
 .lasthour {
-  
+  border-bottom: 1px dashed #000000;
 }
 
-/* .taskText {
-  border: solid;
-  border-width: 1px;
-  font-style: italic;
-  color: currentColor;
-  border: solid;
-} */
+#erase {
+  display: flex;
+  width: 81%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+#eraseButton{
+  width: 20%;
+  padding: 1em;
+  border-radius: 15px;
+  color: white;
+  margin: auto;
+}
+
+@media screen and (max-width: 740px) {
+ 
+  .display-3 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+ 
+  #eraseButton{
+    width: 24%;
+    padding: 1em;
+    border-radius: 15px;
+    color: white;
+  }
+
+  .display-3 {
+    font-size: 40px;
+  }
+}
