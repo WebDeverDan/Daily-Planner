@@ -5,8 +5,8 @@ There is also a color-coded system, based on the time of the day it is. If it is
 Upon clicking the disk icon to the right of each text box,the task can be saved and written to local storage and will re-appear upon page reload. There is also an "Erase Notes" button at the bottom which clears the local storage. "Erase Notes" was not a requirement, however for ease of use this was added as an extra feature.
 
 
-Application Repository Link: https://github.com/rollerbladerdan/Daily-Planner
-Deployed Application Link: https://rollerbladerdan.github.io/Daily-Planner/
+Application Repository Link: https://github.com/WebDeverDan/Daily-Planner
+Deployed Application Link: https://WebDeverDan.github.io/Daily-Planner/
 
-![Image 1 of application:](https://github.com/rollerbladerdan/Daily-Planner/blob/master/ScreenShots/Screen%20Shot%202021-07-13%20at%2011.04.40%20AM.png)
-![Image 2 of application:](https://github.com/rollerbladerdan/Daily-Planner/blob/master/ScreenShots/Screen%20Shot%202021-07-13%20at%2011.06.23%20AM.png)
+![Image 1 of application:](https://github.com/WebDeverDan/Daily-Planner/blob/master/ScreenShots/Screen%20Shot%202021-07-13%20at%2011.04.40%20AM.png)
+![Image 2 of application:](https://github.com/WebDeverDan/Daily-Planner/blob/master/ScreenShots/Screen%20Shot%202021-07-13%20at%2011.06.23%20AM.png)

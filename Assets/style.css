@@ -4,6 +4,12 @@ body {
   line-height: 1;
 }
 
+
+#bgArea {
+  background-image: url(woodgrainbackground.JPG);
+  padding-top: 1em;
+}
+
 button {
   background-color: #06aed5;
   border: none;
@@ -35,9 +41,19 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+#firstClass {
+  margin-top: 1em;
+}
+
+.container{
+  margin-top: 1em;
+}
+
 .time-block {
   text-align: center;
   border-radius: 15px;
+  margin-bottom: 0;
+
 }
 
 .row {
@@ -45,6 +61,9 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
 }
 
 .hour {
@@ -54,6 +73,10 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-bottom: 1px dashed #000000;
+  border-left: 1px dashed #000000;
+  font-size: 20px;
+  
 }
 
 /* .past {
@@ -123,6 +146,7 @@ textarea {
   border-radius: 15px;
   color: white;
   margin: auto;
+  margin-bottom: 1em;
 }
 
 @media screen and (max-width: 740px) {
