@@ -17,16 +17,18 @@
     <title>Daily Planner</title>
   </head>
 <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Daily Planner</h1>
-      <p class="lead">A Simple Calendar App for Scheduling Your Work Day</p>
+    <header>
+      <div class="jumbotron">
+      <h1 class="display-3">Your Daily Planner</h1>
+      <p class="lead">Welcome to the Day! Write Down Your Ideas to Get Organized!</p>
       <p id="currentDay" class="lead"></p>
+      </div>
     </header>
     <div id="bgArea">
     <div class="container">
         <div id="firstClass" class="time-block row 1">
             <p class="w-25 p-3 col-2 hour">9:00 AM</p>
-            <div class="w-25 p-3 col-9 colorcode" id="9" contenteditable="true" placholder="Enter notes for your day here"></div>
+            <div class="w-25 col-9 edit-box colorcode" id="9" contenteditable="true" placholder="Enter notes for your day here"></div>
             <div data-id="9" class="col-1 saveBtn">
               <!-- the data-id will associate 32 with 29 -->
              <button ><img id="diskIcon" src="Assets/diskpng.png"></img></button>

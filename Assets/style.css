@@ -2,13 +2,17 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: gray;
 }
 
-
-#bgArea {
+/* #bgArea {
   background-image: url(woodgrainbackground.JPG);
   padding-top: 1em;
-}
+} */
+/* 
+header{
+  background-color: gray;
+} */
 
 button {
   background-color: #06aed5;
@@ -29,16 +33,23 @@ textarea {
   padding: 10px;
 }
 
-[contenteditable] {
-  outline-color: #06aed5;
-}
-
 .jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  background-color: transparent;
+  width: 75%;
+  background-color: #FFF;
   color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  margin:auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 4em;
+  padding-left: 4em;
+  border: solid;
+  border-radius: 15px;
 }
 
 #firstClass {
@@ -53,7 +64,6 @@ textarea {
   text-align: center;
   border-radius: 15px;
   margin-bottom: 0;
-
 }
 
 .row {
@@ -66,17 +76,42 @@ textarea {
   
 }
 
+[contenteditable] {
+  outline-color: #06aed5;
+  font-size: 20px;
+}
+
 .hour {
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #06aed5;
+  color: #FFF;
   border-top: 1px dashed #000000;
   border-bottom: 1px dashed #000000;
   border-left: 1px dashed #000000;
+  border-radius: 15px;
   font-size: 20px;
-  
+}
+.colorcode{
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  height:100%;
+  /* background-image: url(paper.png);
+  background-size:contain;
+   */
+}
+
+
+.p-3{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border: solid;
+  border-top-right-radius:0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 0;
 }
 
 /* .past {
@@ -96,6 +131,7 @@ textarea {
 
 .saveBtn {
   border-left: 1px solid black;
+  height: 100%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
@@ -130,7 +166,7 @@ textarea {
 }
 
 .lasthour {
-  border-bottom: 1px dashed #000000;
+  /* border-bottom: 1px dashed #000000; */
 }
 
 #erase {
@@ -142,9 +178,11 @@ textarea {
 
 #eraseButton{
   width: 20%;
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   border-radius: 15px;
   color: white;
+  border: solid;
   margin: auto;
   margin-bottom: 1em;
 }
